@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    ;
+}
+
+
+header{
+    background-image: url(Anime.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: aligned center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    word-spacing: 15px;
+    margin-right: 15px;
+    
+
+}
+
+
+ul li{
+     display: inline-block;
+
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding:5px 20px ;
+    border: px solid #fff;
+
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color:black;
+    transition: 0.8s ease-out;
+}
+ul li.active a {
+    background-color: #fff;
+    color:black;
+
+}
+ img{
+    float: left;
+    width: 10%;
+    height: 10%;
+    padding: 20px ;
+    
+}
+.title{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 100px;
+}
+
+.Button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+   
+    
+}
+
+
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+    
+    
+
+.btn:hover{
+    background-color: #fff;
+    color:black;
+    transition: 0.8s ease-out;
+    
+}
+.logo{
+    height: 0px;
+    width: 0px;
+}
